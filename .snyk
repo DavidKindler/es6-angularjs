@@ -18,6 +18,10 @@ patch:
         patched: '2018-05-02T16:15:37.932Z'
     - karma > connect > connect-timeout > debug:
         patched: '2018-05-02T16:15:37.932Z'
+    - karma > log4js > mailgun-js > debug:
+        patched: '2018-05-02T16:17:28.307Z'
+    - assetgraph-builder > express-processimage > gm-papandreou > debug:
+        patched: '2018-05-02T16:17:28.307Z'
   'npm:minimatch:20160620':
     - systemjs-assetgraph > systemjs-builder > traceur > glob > minimatch:
         patched: '2018-05-02T16:15:37.932Z'
@@ -54,6 +58,10 @@ patch:
         patched: '2018-05-02T16:15:37.932Z'
     - karma > connect > connect-timeout > debug > ms:
         patched: '2018-05-02T16:15:37.932Z'
+    - karma > log4js > mailgun-js > debug > ms:
+        patched: '2018-05-02T16:17:28.307Z'
+    - assetgraph-builder > express-processimage > gm-papandreou > debug > ms:
+        patched: '2018-05-02T16:17:28.307Z'
   'npm:negotiator:20160616':
     - karma > connect > compression > accepts > negotiator:
         patched: '2018-05-02T16:15:37.932Z'
