@@ -1,0 +1,72 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > connect > body-parser > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > compression > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > express-session > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > morgan > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-index > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-static > send > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > connect-timeout > debug:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:minimatch:20160620':
+    - systemjs-assetgraph > systemjs-builder > traceur > glob > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - systemjs-assetgraph > systemjs-builder > systemjs > es6-module-loader > traceur > glob > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - fb-flo > sane > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - assetgraph-builder > express-processimage > pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - assetgraph-builder > pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - assetgraph-builder > express-processimage > pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+    - assetgraph-builder > pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:ms:20170412':
+    - karma > connect > body-parser > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > compression > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > express-session > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > morgan > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-index > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-static > send > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > connect-timeout > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-static > send > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-favicon > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > connect-timeout > debug > ms:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:negotiator:20160616':
+    - karma > connect > compression > accepts > negotiator:
+        patched: '2018-05-02T16:15:37.932Z'
+    - karma > connect > serve-index > accepts > negotiator:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:request:20160119':
+    - assetgraph-builder > express-processimage > svgfilter > assetgraph > request:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:semver:20150403':
+    - systemjs-assetgraph > systemjs-builder > traceur > semver:
+        patched: '2018-05-02T16:15:37.932Z'
+    - systemjs-assetgraph > systemjs-builder > systemjs > es6-module-loader > traceur > semver:
+        patched: '2018-05-02T16:15:37.932Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > ws:
+        patched: '2018-05-02T16:15:37.932Z'
